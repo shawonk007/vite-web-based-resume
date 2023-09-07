@@ -1,4 +1,5 @@
 <script setup>
+import { toggleSidebar } from '@/state/sidebar';
 import AppLayout from "@/layouts/AppLayout.vue";
 </script>
 
@@ -6,5 +7,8 @@ import AppLayout from "@/layouts/AppLayout.vue";
   <AppLayout>
     <h1>Welcome</h1>
     <fa-icon :icon="['fas', 'house']" />
+    <span @click="toggleSidebar" class="text-gray-600">
+        <fa-icon :icon="['fas', 'bars']" />
+    </span>
   </AppLayout>
 </template>
