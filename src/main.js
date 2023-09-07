@@ -1,5 +1,16 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import App from '@/App.vue'
+import router from '@/router/index.js'
+import '@/style.css'
 
-createApp(App).mount('#app')
+router.beforeEach((to, from, next) => {
+  const title = to.meta.title
+  if (title) {
+    document.title = title || DEFAULT_TITLE
+  }
+  next()
+});
+
+createApp(App)
+.use(router)
+.mount('#app')
