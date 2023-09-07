@@ -8,7 +8,7 @@ import AppLayout from "@/layouts/AppLayout.vue";
     <h1>Welcome</h1>
     <fa-icon :icon="['fas', 'house']" />
     <span @click="toggleSidebar" class="text-gray-600">
-        <fa-icon :icon="['fas', 'bars']" />
+      <fa-icon :icon="['fas', 'bars']" />
     </span>
   </AppLayout>
 </template>
