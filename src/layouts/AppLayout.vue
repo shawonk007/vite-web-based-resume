@@ -6,7 +6,7 @@ import Sidebar from '@/includes/Sidebar.vue';
 
 <template>
   <Sidebar />
-  <main :style="{ marginLeft: sidebarWidth }">
+  <main class="bg-gray-50" :style="{ marginLeft: sidebarWidth }">
     <slot />
   </main>
 </template>

@@ -8,6 +8,14 @@ const routes = [
     meta: {
       title: 'Welcome | Muhammad Nasir Uddin Khan Shawon'
     }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import('@/views/About.vue'),
+    meta: {
+      title: 'About Me | Muhammad Nasir Uddin Khan Shawon'
+    }
   }
 ]
 

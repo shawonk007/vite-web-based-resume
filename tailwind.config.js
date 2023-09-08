@@ -13,6 +13,13 @@ export default {
       'xl': {'min': '1280px', 'max': '1535px'},
       '2xl': {'min': '1536px'},
     },
+    fontFamily: {
+      dancing : [ 'Dancing Script', 'cursive' ],
+      cursive : [ 'Odibee Sans', 'cursive' ],
+      ubuntu  : [ 'Ubuntu', 'sans-serif' ],
+      monospace : [ 'Ubuntu Mono', 'monospace' ],
+      condensed : [ 'Ubuntu Condensed', 'sans-serif' ]
+    },
     extend: {},
   },
   plugins: [],
