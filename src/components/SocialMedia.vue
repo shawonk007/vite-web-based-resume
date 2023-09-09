@@ -1,6 +1,12 @@
 <script>
 export default {
   name : "SocialMedia",
+  props: {
+    size : {
+      type : String,
+      default : 'p-1.5 w-5 h-5'
+    }
+  },
   data : () => {
     return {
         socialLinks : [
@@ -19,7 +25,7 @@ export default {
 <template>
   <ul class="flex items-center gap-4">
     <a v-for="social of socialLinks" v-bind:href="social.url" target="_blank" :title="social.title" >
-      <fa-icon :icon="['fab', social.icon ]" class="block text-gray-700 hover:text-white hover:bg-gray-700 border-2 border-gray-700 rounded-full p-1.5 w-5 h-5" />
+      <fa-icon :icon="['fab', social.icon ]" class="block text-gray-700 hover:text-white hover:bg-gray-700 border-2 border-gray-700 rounded-full" :class="size" />
     </a>
   </ul>
 </template>

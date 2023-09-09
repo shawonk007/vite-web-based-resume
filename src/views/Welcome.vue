@@ -31,15 +31,15 @@ import SocialMedia from "@/components/SocialMedia.vue";
       <!-- <div class="mb-14 flex items-center before:mt-0.5 before:flex-1 before:border-t-8 before:border-double before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t-8 after:border-double after:border-neutral-300">
         <h2 class="text-2xl text-neutral-400 text-center font-semibold font-monospace uppercase mx-4 mb-0">Introduction</h2>
       </div> -->
-      <div class="flex items-center justify-between bg-white border border-gray-200 rounded-md shadow-md shadow-gray-400">
-        <div class="w-2/5 p-6">
+      <div class="flex items-center justify-between gap-6 bg-white border border-gray-200 rounded-md shadow-md shadow-gray-400 p-6">
+        <div class="w-2/5">
           <img src="@/assets/images/shawon.jpg" class="block border-4 border-gray-200 rounded-md w-full" alt="" />
         </div>
-        <div class="w-3/5 p-6">
+        <div class="w-3/5">
           <ContentTitle content="Professional Summary" />
-          <p class="text-justify leading-8 mb-6">Highly motivated and driven individual with a passion for graphic design and web app development. Proficient in using Adobe Creative Cloud (CC), Laravel and Vue.js to create visually appealing and functional websites and applications. A quick learner with strong problem-solving skills and the ability to work well in a team environment. Seeking opportunities to grow as an IT professional while contributing to the success of the company.</p>
+          <p class="text-justify text-gray-900 leading-8 mb-6">Highly motivated and driven individual with a passion for graphic design and web application development. Proficient in using Adobe Creative Cloud (CC), Laravel and Vue.js to create visually appealing and functional websites and applications. A quick learner with strong problem-solving skills and the ability to work well in a team environment. Seeking opportunities to grow as an IT professional while contributing to the success of the company.</p>
           <ContentTitle content="Follow Me" />
-          <SocialMedia />
+          <SocialMedia size="p-2 w-8 h-8" />
         </div>
       </div>
     </section>
