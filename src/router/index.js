@@ -16,6 +16,14 @@ const routes = [
     meta: {
       title: 'About Me | Muhammad Nasir Uddin Khan Shawon'
     }
+  },
+  {
+    path: '/academic',
+    name: 'academic',
+    component: () => import('@/views/Academic.vue'),
+    meta: {
+      title: 'Academic | Muhammad Nasir Uddin Khan Shawon'
+    }
   }
 ]
 

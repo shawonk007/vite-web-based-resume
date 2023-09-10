@@ -2,7 +2,7 @@
 defineProps ({
   content : {
     type : String,
-    default : ''
+    default : 'Content Title'
   }
 });
 </script>
@@ -12,8 +12,8 @@ defineProps ({
     <fa-icon :icon="['fas', 'hand-point-right']" />
     <span class="ml-4">{{ content }}</span>
   </h5> -->
-  <h5 class="flex items-center text-2xl font-bold font-ubuntu bg-blue-400 rounded-md after:mt-0.5 after:flex-1 after:border-t-4 after:border-gray-300 px-4 py-0.5 mb-6" >
+  <h5 class="flex items-center text-xl font-bold font-ubuntu bg-blue-400 rounded-md after:mt-0.5 after:flex-1 after:border-t-4 after:border-gray-300 px-4 py-0.5 mb-6" >
     <fa-icon :icon="['fas', 'hand-point-right']" class="text-gray-300" />
-    <span class="mx-4 text-gray-200">{{ content }} </span>
+    <span class="mx-3 text-gray-200">{{ content }} </span>
   </h5>
 </template>
