@@ -29,7 +29,7 @@ export default {
           <fa-icon :icon="['fas', 'graduation-cap']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Academic</span>
         </router-link>
-        <router-link :to="{ name : 'welcome' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
+        <router-link :to="{ name : 'employment' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
           <fa-icon :icon="['fas', 'briefcase']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Employment</span>
         </router-link>

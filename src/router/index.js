@@ -24,7 +24,15 @@ const routes = [
     meta: {
       title: 'Academic | Muhammad Nasir Uddin Khan Shawon'
     }
-  }
+  },
+  {
+    path: '/employment',
+    name: 'employment',
+    component: () => import('@/views/Employment.vue'),
+    meta: {
+      title: 'Employment | Muhammad Nasir Uddin Khan Shawon'
+    }
+  },
 ]
 
 const router = createRouter({
