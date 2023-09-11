@@ -9,7 +9,7 @@ export default {
       informations : [
         { title : 'Height', data : '5 feet 3 inch' },
         { title : 'Weight', data : '64 Kgs' },
-        { title : 'Blood Group', data : 'B-Potitive' }
+        { title : 'Blood Group', data : 'B-Positive' }
       ]
     };
   },
