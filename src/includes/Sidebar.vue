@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
+  <!-- <aside class="fixed bg-gray-900 top-0 h-screen" :style="{ width: sidebarWidth }" > -->
   <aside class="fixed bg-gray-900 top-0 h-screen" :style="{ width: sidebarWidth }" >
-    <div></div>
     <div class="flex flex-col items-center justify-center my-6">
       <router-link :to="{ name : 'welcome' }">
         <img src="@/assets/images/shawon.jpg" class="rounded-full border-4 border-white p-1 w-40 h-40" alt="" />
@@ -33,7 +33,7 @@ export default {
           <fa-icon :icon="['fas', 'briefcase']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Employment</span>
         </router-link>
-        <router-link :to="{ name : 'welcome' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
+        <router-link :to="{ name : 'skills' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
           <fa-icon :icon="['fas', 'chart-area']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Abilities</span>
         </router-link>

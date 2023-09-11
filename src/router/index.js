@@ -33,6 +33,14 @@ const routes = [
       title: 'Employment | Muhammad Nasir Uddin Khan Shawon'
     }
   },
+  {
+    path: '/skills',
+    name: 'skills',
+    component: () => import('@/views/Abilities.vue'),
+    meta: {
+      title: 'Skills & Abilities | Muhammad Nasir Uddin Khan Shawon'
+    }
+  },
 ]
 
 const router = createRouter({
