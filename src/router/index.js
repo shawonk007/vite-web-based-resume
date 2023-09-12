@@ -41,6 +41,14 @@ const routes = [
       title: 'Skills & Abilities | Muhammad Nasir Uddin Khan Shawon'
     }
   },
+  {
+    path: '/trainings',
+    name: 'trainings',
+    component: () => import('@/views/Training.vue'),
+    meta: {
+      title: 'Training & Workshop | Muhammad Nasir Uddin Khan Shawon'
+    }
+  },
 ]
 
 const router = createRouter({

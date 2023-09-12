@@ -45,7 +45,7 @@ const formattedIndex = (index) => {
 
 <template>
   <AppLayout>
-    <PageTitle icon="graduation-cap" heading="Employment History" subheading="about my job experiences" />
+    <PageTitle icon="briefcase" heading="Employment History" subheading="about my job experiences" />
     <ContentSection class="grid grid-cols-1 gap-14">
       <ContentCard v-for="(info, index) of informations" display="block" v-bind:key="info.index">
         <div class="block text-white bg-green-600 rounded-md px-3 py-2 w-40 cursor-pointer">

@@ -41,7 +41,7 @@ export default {
           <fa-icon :icon="['fas', 'folder-open']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Projects</span>
         </router-link>
-        <router-link :to="{ name : 'welcome' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
+        <router-link :to="{ name : 'trainings' }" class="flex items-center justify-normal gap-4 rounded-md px-4 py-1.5">
           <fa-icon :icon="['fas', 'building-columns']" class="w-4 h-4 text-gray-500" />
           <span class="font-semibold uppercase text-gray-400">Trainings</span>
         </router-link>
